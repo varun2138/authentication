@@ -16,7 +16,7 @@ app.use(
 
 app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 
-app.use(express.static("public")); //serves static files like images from public directory.
+// app.use(express.static("public")); //serves static files like images from public directory.
 
 app.use(cookieParser());
 //routes import
